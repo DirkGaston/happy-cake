@@ -5,7 +5,7 @@ const Home = () => {
         Bienvenido a <b>Happy Cake</b>
       </h1>
       <h3 className="text-2xl mb-2">El lugar de los pasteles felices</h3>
-      <i className="text-8xl">🎂</i>
+      <p className="text-8xl">🎂</p>
     </div>
   );
 };
