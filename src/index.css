@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.homeContainer {
-  height: 25vh;
+#root {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
 }
