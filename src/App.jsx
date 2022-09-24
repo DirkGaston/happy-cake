@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Contacto from "./pages/Contacto";
+import Error404 from "./pages/404";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/contacto" element={<Contacto />}></Route>
+          <Route path="/*" element={<Error404 />}></Route>
         </Routes>
         <Footer />
       </div>
